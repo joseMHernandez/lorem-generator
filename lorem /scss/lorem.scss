@@ -1,0 +1,47 @@
+.section-center{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    font-size: 2rem;
+    flex-direction: column;
+    h3{
+        margin-bottom: 4rem;
+    }
+}
+
+
+.lorem-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  
+ #amount{
+    border-radius: .7rem;
+    width: 10%;
+    margin-left: 1rem;
+    background-color: white;
+    color: black;
+    }
+
+  
+}
+
+
+.btn{
+    padding: .4rem 2rem;
+     font-size: 1.6rem;
+     background-color: turquoise;
+     border: 1px solid black;
+     border-radius: .5rem;
+     margin-left: 1rem;
+     cursor: pointer;
+ }
+
+
+ .result {
+     margin-bottom: 3rem;
+ }
+
+ .lorem-text{
+     padding: 0 3rem;
+ }

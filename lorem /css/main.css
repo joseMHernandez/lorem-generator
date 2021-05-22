@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.section-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  font-size: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-center h3 {
+  margin-bottom: 4rem;
+}
+
+.lorem-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.lorem-form #amount {
+  border-radius: .7rem;
+  width: 10%;
+  margin-left: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  padding: .4rem 2rem;
+  font-size: 1.6rem;
+  background-color: turquoise;
+  border: 1px solid black;
+  border-radius: .5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.result {
+  margin-bottom: 3rem;
+}
+
+.lorem-text {
+  padding: 0 3rem;
+}
